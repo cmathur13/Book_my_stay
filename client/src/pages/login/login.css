@@ -1,0 +1,57 @@
+.login {
+  height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(229, 234, 241);
+}
+
+.lContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  padding: 60px 60px;
+  width: 280px;
+  border-radius: 10px;
+}
+
+.lInput {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.lButton {
+  border: none;
+  padding: 10px;
+  height: 45px;
+  border: none;
+  background-color: #003580;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.lButton:disabled {
+  background-color: #0071c28c;
+  cursor: not-allowed;
+}
+
+.title {
+  color: #003580;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.register-link {
+  color: #04429b;
+  text-decoration: none;
+}
